@@ -1,0 +1,16 @@
+<div class="count-container">
+    <b>Count:</b> {{ count | async }}<br/><br/>
+</div>
+
+<div class="button-container">
+<button class="inc-button" (click)="increment()">
+    Increment
+</button>
+
+<button class="dec-button" (click) = "decrement()">
+    Decrement
+</button>
+
+<button class="reset-button" (click) = "reset()">Reset</button>
+</div>
+
